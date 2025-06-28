@@ -1,1 +1,6 @@
-.DS_Store
+cd ~
+cd ~/25a31g0007/about-me
+mkdir -p ~25a31g0007/about-me/css
+touch ~25a31g0007/about-me/css/styles.css
+mkdir -p ~/25a31g0007/about-me/js
+touch ~/25a31g0007/about-me/js/scripts.js
