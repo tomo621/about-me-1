@@ -1,4 +1,3 @@
+// 初回読み込み時に挨拶メッセージを表示
 window.addEventListener('DOMContentLoaded', () => {
-    alert('自己紹介サイトへようこそ！');
-    console.log('自己紹介サイトへようこそ！');
-});
+console.log("ようこそ杉江麗さんのページへ！") 
