@@ -3,24 +3,18 @@
 <body backgoround="images"
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
-		<!-- reset.css ress -->
-		<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>杉江麗の自己紹介</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body class="body">
-    <header class="header">
-        <nav class="nav">
-            <ul>
-                <li><a href="#profile">プロフィール</a></li>
-                <li><a href="#hobbies">趣味</a></li>
-            </ul>
-        </nav>
-        <h1>わたしの自己紹介サイト</h1>
+<body>
+  <div class="content">
+    <header>
+      <h1>杉江 麗の自己紹介</h1>
     </header>
     <main>
+<<<<<<< HEAD
         <section id="profile">
             <h2>プロフィール</h2>
             <p>こんにちは、わたしは杉江麗です。これはわたしの自己紹介サイトです。</p>
@@ -39,5 +33,47 @@
     </footer>
     <script src="js/scripts.js"></script>
 </body
+=======
+      <section class="profile">
+        <h2>プロフィール</h2>
+        <p>こんにちは、杉江麗です。ITの専門学校に通いながら、日々プログラミングや最新のIT技術について学んでいます。新しいことを学ぶのが好きで、将来はIT業界で活躍できる人材になることを目指しています。</p>
+        <ul>
+          <li><strong>出身地:</strong> 滋賀県</li>
+          <li><strong>年齢:</strong> 18歳</li>
+          <li><strong>血液型:</strong> A型</li>
+          <li><strong>生年月日:</strong> 2006年9月11日</li>
+        </ul>
+      </section>
+      </section>
+      <section class="hobbies">
+        <h2>趣味</h2>
+        <ul>
+          <li>ゲーム（特にRPGやアクションゲームが好きです）</li>
+          <li>音楽鑑賞（ジャンルを問わず色々な曲を聴きます）</li>
+          <li>散歩（知らない道を歩いて新しい発見をするのが楽しみです）</li>
+        </ul>
+      </section>
+      <section class="school">
+        <h2>学校生活</h2>
+        <p>専門学校では、Web制作、プログラミング、ネットワークなど、ITに関する幅広い分野を勉強しています。</p>
+      </section>
+    </main>
+  </div>
+</body>
+>>>>>>> 79c6412ba830b0b9a0de2d71a0ff2b3c7679def7
 </html>
-
+<script>
+    const wavyText = document.querySelector('.wavy-text');
+    if (wavyText) {
+      wavyText.innerHTML = wavyText.textContent
+        .split('')
+        .map((char, i) => {
+          // 空白文字はspanで囲まない
+          if (char.trim() === '') return ' ';
+          return `<span style="animation-delay: ${i * 0.07}s;">${char}</span>`;
+        })
+        .join('');
+    }
+  </script>
+</body>
+</html>
